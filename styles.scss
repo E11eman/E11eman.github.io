@@ -1,5 +1,36 @@
-@import url(_base.scss);
+@import '_base';
 
 * {
-    margin
+    margin: $zero;
+    padding: $zero;
+    box-sizing:border-box
+}
+
+body {
+    background-color: $background;
+}
+
+header {
+    position: relative;
+    width: $hund;
+    height: 100vh;
+    overflow: hidden;
+    background: $background;
+
+    #background{
+        position: absolute;
+        top: $zero;
+        left: $zero;
+        width: $hund;
+        height: $hund;
+        background: url(images/melaughing.jpg)
+    }
+    h1{
+        padding-top: 70px;
+    }
+}
+
+#background
+{
+    text-align: $center;
 }
