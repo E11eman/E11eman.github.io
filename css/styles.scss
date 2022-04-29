@@ -36,3 +36,33 @@ header {
     text-align: $center;
     font-size: 3em;
 }
+
+
+/*Contact*/
+.contactcontatiner{
+    display: grid;
+    grid-template-rows: $grid1fr;
+    margin-left: $cmargin;
+    margin-right: $cmargin;
+    margin-top: 2.5%;
+    margin-bottom: 9%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border: 2px rgb(56, 56, 56) solid;
+    background-color: rgb(69, 69, 69);
+    font-size: 20px;
+    color:rgb(204, 204, 204);
+    text-align: $center;
+    grid-row-gap: $tenpx;
+
+    i{
+        margin: auto;
+        padding: 0px !important;
+    }
+    p{
+        margin: auto;
+    }
+}
+.myemail .mygit .myinsta .mydiscord .myphone .myspotify{
+    padding-bottom: $tenpx;
+}

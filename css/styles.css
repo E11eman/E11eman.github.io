@@ -36,4 +36,37 @@ header h1 {
   text-align: center;
   font-size: 3em;
 }
+
+/*Contact*/
+.contactcontatiner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2.5%;
+  margin-bottom: 9%;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  border: 2px #383838 solid;
+  background-color: #454545;
+  font-size: 20px;
+  color: #cccccc;
+  text-align: center;
+  grid-row-gap: 10px;
+}
+
+.contactcontatiner i {
+  margin: auto;
+  padding: 0px !important;
+}
+
+.contactcontatiner p {
+  margin: auto;
+}
+
+.myemail .mygit .myinsta .mydiscord .myphone .myspotify {
+  padding-bottom: 10px;
+}
 /*# sourceMappingURL=styles.css.map */
