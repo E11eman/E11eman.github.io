@@ -7,7 +7,8 @@
 }
 
 body {
-  background-color: #d65a5a;
+  background: #d65a5a;
+  font-family: "Inconsolata", monospace;
 }
 
 header {
@@ -28,10 +29,11 @@ header #background {
 }
 
 header h1 {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 #background {
   text-align: center;
+  font-size: 3em;
 }
 /*# sourceMappingURL=styles.css.map */
