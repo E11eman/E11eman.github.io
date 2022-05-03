@@ -47,15 +47,19 @@ header {
     margin-top: 2.5%;
     margin-bottom: 9%;
     padding-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     border: 2px rgb(56, 56, 56) solid;
-    background-color: rgb(69, 69, 69);
+    background-color: $grey;
     font-size: 20px;
-    color:rgb(204, 204, 204);
+    color: $color;
     text-align: $center;
     grid-row-gap: $tenpx;
 
     i{
+        font-size: 30px;
+    }
+
+    a{
         margin: auto;
         padding: 0px !important;
     }
@@ -63,6 +67,9 @@ header {
         margin: auto;
     }
 }
-.myemail .mygit .myinsta .mydiscord .myphone .myspotify{
+.myemail .mygit .myinsta .mydiscord .myphone .myspotify div{
     padding-bottom: $tenpx;
+}
+svg{
+    color: $color;
 }
