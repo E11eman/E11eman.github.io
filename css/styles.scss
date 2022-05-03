@@ -16,7 +16,7 @@ header {
     width: $hund;
     height: 100vh;
     overflow: hidden;
-    background: $background;
+    background: $color;
 
     #background{
         position: absolute;
@@ -24,9 +24,13 @@ header {
         left: $zero;
         width: $hund;
         height: $hund;
-        background: url(images/melaughing.jpg)
+        background-image: url(/images/melaughing.jpg);
+        background-repeat: no-repeat;
+        background-size: 40em;
     }
     h1{
+        text-align: left;
+        padding-left: 2em;
         padding-top: 50px;
     }
 }
@@ -37,6 +41,34 @@ header {
     font-size: 3em;
 }
 
+.contain{
+    margin: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 150px;
+}
+
+.profile{
+    padding-top: 100px;
+    color: #f7f7f7;
+
+    h1{
+        font-size: 3em;
+        padding-bottom: $tenpx;
+    }
+    p{
+        font-size: 1.2em;
+        text-align: justify;
+        margin: center;
+    }
+}
+
+.pfp {
+    float: left;
+    margin-right: 25px;
+    width: 250px;
+    box-shadow: 1px 1px 7px black;
+}
 
 /*Contact*/
 .contactcontatiner{
@@ -72,4 +104,35 @@ header {
 }
 svg{
     color: $color;
+}
+
+/* footer */
+footer {
+    display: grid;
+    justify-content: space-around;
+    align-content: $center;
+    text-align: $center;
+    margin: $center;
+    color: $color;
+    font-size: 1.4em;
+  }
+  .containers {
+      padding-right: 15em;
+      padding-left: 15em;
+      padding-bottom: 5em;
+  }
+
+/* responsive changes*/
+@media screen and (max-width: 768px) {
+
+      /* less dramatic margins for smaller screens */
+  .profile {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .pfp {
+    float: none;
+    margin: auto;
+  }
 }
