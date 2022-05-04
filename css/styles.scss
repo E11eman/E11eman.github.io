@@ -10,7 +10,7 @@ body {
     background: $background;
     font-family: $fontfam;
 }
-
+/*Home*/
 header {
     position: relative;
     width: $hund;
@@ -31,7 +31,7 @@ header {
     h1{
         text-align: left;
         padding-left: 2em;
-        padding-top: 50px;
+        padding-top: 2.5em;
     }
 }
 
@@ -43,8 +43,8 @@ header {
 
 .contain{
     margin: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: $twenpx;
+    padding-right: $twenpx;
     padding-bottom: 150px;
 }
 
@@ -70,6 +70,19 @@ header {
     box-shadow: 1px 1px 7px black;
 }
 
+/* About Me */
+.container{
+    padding-left: 5.3em;
+    background-color: black;
+}
+h3{
+    margin: auto;
+    padding-top: 1em;
+    text-align: center;
+    color: $color;
+    font-size: 4.6em;
+}
+
 /*Contact*/
 .contactcontatiner{
     display: grid;
@@ -78,11 +91,11 @@ header {
     margin-right: $cmargin;
     margin-top: 2.5%;
     margin-bottom: 9%;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: $twenpx;
+    padding-bottom: $tenpx;
     border: 2px rgb(56, 56, 56) solid;
     background-color: $grey;
-    font-size: 20px;
+    font-size: $twenpx;
     color: $color;
     text-align: $center;
     grid-row-gap: $tenpx;
@@ -121,6 +134,9 @@ footer {
       padding-left: 15em;
       padding-bottom: 5em;
   }
+.padding{
+    padding-bottom: 5em;
+}
 
 /* responsive changes*/
 @media screen and (max-width: 768px) {

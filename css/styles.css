@@ -11,6 +11,7 @@ body {
   font-family: "Inconsolata", monospace;
 }
 
+/*Home*/
 header {
   position: relative;
   width: 100%;
@@ -33,7 +34,7 @@ header #background {
 header h1 {
   text-align: left;
   padding-left: 2em;
-  padding-top: 50px;
+  padding-top: 2.5em;
 }
 
 #background {
@@ -70,6 +71,20 @@ header h1 {
   width: 250px;
   -webkit-box-shadow: 1px 1px 7px black;
           box-shadow: 1px 1px 7px black;
+}
+
+/* About Me */
+.container {
+  padding-left: 5.3em;
+  background-color: black;
+}
+
+h3 {
+  margin: auto;
+  padding-top: 1em;
+  text-align: center;
+  color: #cccccc;
+  font-size: 4.6em;
 }
 
 /*Contact*/
@@ -130,6 +145,10 @@ footer {
 .containers {
   padding-right: 15em;
   padding-left: 15em;
+  padding-bottom: 5em;
+}
+
+.padding {
   padding-bottom: 5em;
 }
 
