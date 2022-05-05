@@ -12,13 +12,14 @@
     <link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
 <body>
+    <!-- Image Title and Scroll Effect -->
     <header>
         <div id = "background">
             <h1 class="display-1">Luke Elleman</h1>
         </div>
     </header>
       <!-- JS for the scroll fade of the header image -->
-  <script type="text/javascript">
+  <script>
     var headerBg = document.getElementById('background')
       window.addEventListener('scroll', function() {
       headerBg.style.opacity = 1 - +window.pageYOffset / 550 + ''
@@ -26,6 +27,9 @@
       headerBg.style.backgroundPositionY = - +window.pageYOffset / 2 + 'px'
     })
   </script>
+  <!-- End of Image Title and Scroll Effect-->
+
+  <!-- Navigation Bar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="https://www.youtube.com/channel/UCS0M4OplahlppYqyhTj0KcQ"><img src="images/logo.png" alt="Logo" style="width: 3em;"></a>
@@ -47,6 +51,9 @@
       </div>
     </div>
   </nav>
+  <!-- End of Navigation Bar-->
+
+  <!-- ME -->
   <div class="contain row">
     <div class="profile">
         <div class="pfp">
@@ -73,6 +80,8 @@
         </div>
     </div>
     </div>
+
+   <!-- Carousel --> 
     <div class="containers">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -102,6 +111,7 @@
       </div>
       </div>
     
+      <!-- Footer -->
       <footer class="bg-dark"> 
         <div class="row">
             <div class="col">
@@ -113,9 +123,11 @@
             <div class="col">
                 <a class="nav-link" href="contact.html">Contact</a>
             </div>
-        <p>&copy Luke Elleman</p> 
+        </div>
+
+        <p> &copy; Luke Elleman</p> 
     </footer>
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+         <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
