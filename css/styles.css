@@ -65,6 +65,10 @@ header h1 {
   margin: center;
 }
 
+.img-custom {
+  width: 100%;
+}
+
 .pfp {
   float: left;
   margin-right: 25px;
@@ -143,9 +147,7 @@ footer {
 }
 
 .containers {
-  padding-right: 15em;
-  padding-left: 15em;
-  padding-bottom: 5em;
+  margin: auto;
 }
 
 .padding {
